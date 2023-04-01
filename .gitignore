@@ -5,8 +5,8 @@ Issues
 Codespaces
 Marketplace
 Explore
- 
-@infiniteweb 
+
+@infiniteweb
 github
 /
 gitignore
@@ -206,7 +206,6 @@ gitignore/Python.gitignore at main · github/gitignore
 /.idea/flight_finder.iml
 /.idea/misc.xml
 /.idea/modules.xml
-/notification_manager.py
 /.idea/inspectionProfiles/profiles_settings.xml
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/vcs.xml
