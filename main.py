@@ -2,9 +2,10 @@ from flight_search import FlightSearch
 from data_manager import DataManager
 from flight_data import FlightData
 from notification_manager import Notification
+import os
 
 FLIGHT_ENDPOINT = "https://api.tequila.kiwi.com/v2/search"
-FLIGHT_API = "ElS_PdHVv1UHyugKdBeIbDFZa-QJb7ME"
+FLIGHT_API = os.environ.get("FLIGHT_API")
 SEARCH_TIME_FRAME = 6
 NIGHTS_IN_DESTINATION = 7
 CITY_NAMES = ["Paris", "Berlin", "Tokyo", "Sydney", "Istanbul", "Kuala Lumpur", "New York City", "San Francisco",
@@ -15,8 +16,8 @@ SHEET_RETRIEVE_ENDPOINT = "https://api.sheety.co/f3e064d4a97762dab96e2283bfbbe1b
 CITY_CODES = ["PAR", "BER", "TYO", "SYD", "IST", "KUL", "NYC", "SFO", "CPT"]
 
 PHONE_NUMBER = "+447888872391"
-account_sid = "AC6170a3a692254b12c07ea7c9bbb595ab"
-auth_token = "638ec99da28d6574bfd559f771da584d"
+account_sid = os.environ.get("ACCOUNT_SID")
+auth_token = os.environ.get("AUTH_TOKEN")
 recipient_list = "+447557902232"
 
 """
