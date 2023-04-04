@@ -18,7 +18,7 @@ CITY_CODES = ["PAR", "BER", "TYO", "SYD", "IST", "KUL", "NYC", "SFO", "CPT"]
 PHONE_NUMBER = "+447888872391"
 account_sid = os.environ.get("ACCOUNT_SID")
 auth_token = os.environ.get("AUTH_TOKEN")
-recipient_list = "+447557902232"
+recipient_list = os.environ.get("PHONE_NUMBER")
 
 """
 Edit a pre-existing google sheet to add the city codes and then retrieve the maximum
